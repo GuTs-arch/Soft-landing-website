@@ -1,0 +1,79 @@
+@media (max-width: 700px){
+    .navigations ul li a{
+        font-size: 20px;
+    }
+    header .brand{
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .navigations{
+        position: absolute;
+        background: darkslateblue;
+        height: 100vh;
+        width: 200px;
+        top: 0; 
+        right: -200px;  
+        text-align: left;
+        z-index: 2; 
+        transition: 1s;
+    }
+
+    .home-info h1{
+        font-size: 30px;
+    }
+    header .bi{
+        display: block;
+        color: darkblue;
+        margin: 10px;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .navigations ul{
+        padding: 30px;
+        position: absolute;
+        display: inline;
+    }
+}
+
+@media (max-width:  1500px){
+    .online-form input[type="email"],
+    .online-form .form-control {
+      width: 85%;
+    }
+
+    .online-form .form-control {
+      display: block;
+      margin: 20px auto;
+    }
+
+    .online-form button {
+      position: relative;
+      right: 0;
+    }
+
+    #testimonial .carousel-inner .carousel-item{
+        margin-bottom: 10rem;
+    }
+
+    .testimonial-image,
+    .testimonial-info {
+      height: 85vh;
+    }
+
+    .testimonial-info {
+      padding: 30px;
+    }
+    #testimonial .carousel-indicators{
+      bottom: 1.8125rem;
+  }
+
+
+  #contact-form input[type='submit']{
+    margin-top: 10px;
+  }
+
+  footer{
+    padding: 80px;
+  }
+}

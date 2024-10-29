@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+
+    <header>
+        <a href="" class="brand">Soft Landing</a>
+        <div class="navigations" id="navLinks">
+            <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+    </header>
+
+    <div id="home" class="banner">
+        <div class="container">
+            <div class="home-info">
+                <h3>professional landing page</h3>
+                <h1>We help you manage your website successfully!</h1>
+                <form action="" method="get" class="online-form">
+                    <input type="email" name="email" class="form-control" placeholder="Enter your email" required="">
+                    <button type="submit" class="form-control">Get started</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+
+                </div>
+                <div class="col-md-6 col-sm-6 feature-tab">
+                    <div class="section-title">
+                        <h1>What you get</h1>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" id="responsive-tab" type="button"
+                                data-bs-target="#responsive" role="tab" aria-controls="responsive"
+                                aria-selected="true">Responsive</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" id="mobile-tab" type="button"
+                                data-bs-target="#mobile" role="tab" aria-controls="mobile"
+                                aria-selected="true">Mobile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" id="support-tab" type="button"
+                                data-bs-target="#support" role="tab" aria-controls="support"
+                                aria-selected="true">Support</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabControl">
+                        <div class="tab-pane fade show active" role="tabpanel" id="responsive"
+                            aria-labelledby="responsive-tab">
+                            <div class="tab-pane-item">
+                                <h3>Minimal Design</h3>
+                                <p>
+                                    Nam feugiat a ante sollicitudin luctus. Quisque eget placerat massa. Ut quis ligula
+                                    ornare,
+                                    pellentesque
+                                    velit eget, vestibulum est. Donec pretium tristique elit eget sodales. Pellentesque
+                                    posuere.
+                                </p>
+
+                                <h3>Easy to use</h3>
+                                <p>
+                                    Aliquam massa massa, consectetur non mattis fringilla, sodales ac turpis. Morbi ac
+                                    felis
+                                    sagittis,
+                                    faucibus mauris vitae, placerat mauris.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" role="tabpanel" id="mobile" aria-labelledby="mobile-tab">
+                            <div class="tab-pane-item">
+                                <h3>Compatible Browsers</h3>
+                                <p>
+                                    Nam maximus elit a metus luctus, a faucibus magna mattis. Ut malesuada viverra
+                                    iaculis.
+                                    Nunc
+                                    euismod
+                                    sit
+                                    amet neque a tincidunt.
+                                </p>
+
+                                <h3>User Friendly</h3>
+                                <p>
+                                    Maecenas maximus velit lorem, quis pharetra turpis fringilla id. Vestibulum tempor
+                                    facilisis
+                                    efficitur.
+                                    Sed nec nisi sit amet nibh pellentesque elementum.
+                                </p>
+
+                                <h3>HTML5 & CSS3</h3>
+                                <p>
+                                    In viverra ipsum ornare sapien rhoncus ullamcorper. Vivamus vitae risus ac mi
+                                    vehicula
+                                    sagittis.
+                                    Nulla
+                                    dictum magna sit amet pharetra aliquam.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" role="tabpanel" id="support" aria-labelledby="support-tab">
+                            <div class="tab-pane-item">
+                                <h3>Quick Support</h3>
+                                <p>
+                                    Mauris rutrum est at fringilla pulvinar. Nam ligula urna, lobortis non scelerisque
+                                    vel,
+                                    molestie
+                                    eu
+                                    massa. Nullam mattis elit at tortor accumsan.
+                                </p>
+
+                                <h3>Managed Stuffs</h3>
+                                <p>
+                                    Quisque ullamcorper sem quis sapien cursus efficitur. Sed id sodales ipsum. Morbi
+                                    eleifend
+                                    tempus
+                                    erat
+                                    sit amet vehicula. Nulla at posuere tellus, non mattis erat. Nulla id massa gravida.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="feature-image">
+                        <img src="images/feature-mockup.png" class="img-fluid" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- #Team# -->
+    <section id="about" class="team">
+        <div class="container">
+            <div class="section-title text-center pb-5">
+                <h1>Professional Team for you</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-4">
+                    <div class="card border-0">
+                        <img src="images/team-image1.jpg" class="img-fluid" alt="">
+                        <div class="card-body p-5">
+                            <h2>Ron Weasley</h2>
+                            <small>Art Designer</small>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor
+                                incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card border-0">
+                        <div class="card-body p-5">
+                            <h2>J.Lo</h2>
+                            <small>Senior Manager</small>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor
+                                incididunt ut labore et dolore magna.</p>
+                        </div>
+                        <img src="images/team-image2.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="card border-0">
+                        <img src="images/team-image3.jpg" class="img-fluid" alt="">
+                        <div class="card-body p-5">
+                            <h2>Jackson wilson</h2>
+                            <small>CEO / Founder</small>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor
+                                incididunt ut labore et dolore magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- testimonial -->
+    <section id="testimonial" style="background-position: 0% -154.956px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="testimonial-image"></div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="testimonial-info">
+                        <div class="section-title">
+                            <h1>What People Say</h1>
+                        </div>
+
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus pariatur
+                                            molestias
+                                        </h3>
+                                        <div class="testimonial-item">
+                                            <img src="images/tst-image1.jpg" alt="">
+                                            <h5 class="mt-3">Stephen</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+                                        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus pariatur
+                                            molestias
+                                        </h3>
+                                        <div class="testimonial-item">
+                                            <img src="images/tst-image2.jpg" alt="">
+                                            <h5 class="mt-3">Stacy</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-caption">
+
+                                        <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus pariatur
+                                            molestias
+                                        </h3>
+
+                                        <div class="testimonial-item">
+                                            <img src="images/tst-image3.jpg" alt="">
+                                            <h5 class="mt-3">Scarlett</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <section id="pricing">
+        <div class="container">
+            <div class="section-title text-center pb-5">
+                <h1>Choose any plan</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 border-end rounded-0">
+                        <div class="card-body">
+                            <h2 class="card-title">Student</h2>
+                            <hr>
+                            <div class="card-info">
+                                <p>20 Responsive Designs</p>
+                                <p>10 Dashboards</p>
+                                <p>1 TB Storage</p>
+                                <p>6 TB Bandwidth</p>
+                                <p>24-hour Support</p>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <span>$200/mo</span>
+                                <a href="#" class="section-btn pricing-btn">Register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 border-end rounded-0">
+                        <div class="card-body">
+                            <h2 class="card-title">Business</h2>
+                            <hr>
+                            <div class="card-info">
+                                <p>50 Responsive Designs</p>
+                                <p>30 Dashboards</p>
+                                <p>2 TB Storage</p>
+                                <p>12 TB Bandwidth</p>
+                                <p>15-minutes Support</p>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <span>$350/mo</span>
+                                <a href="#" class="section-btn pricing-btn">Register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body">
+                            <h2 class="card-title">Professional</h2>
+                            <hr>
+                            <div class="card-info">
+                                <p>100 Responsive Designs</p>
+                                <p>60 Dashboards</p>
+                                <p>5 TB Storage</p>
+                                <p>25 TB Bandwidth</p>
+                                <p>1-minute Support</p>
+                            </div>
+                            <hr>
+                            <div class="card-bottom">
+                                <span>$550/mo</span>
+                                <a href="#" class="section-btn pricing-btn">Register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title text-center  mb-5">
+                <h1>Say hello to us</h1>
+            </div>
+            <div class="row">
+                <div class="p-5">
+                    <form id="contact-form" role="form" action="" method="post">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <input type="text" class="form-control" placeholder="Full name" name="name" required="">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <input type="email" class="form-control" placeholder="Email address" name="email"
+                                    required="">
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <input type="submit" class="form-control" name="send message" value="Send Message">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <textarea class="form-control" rows="8" placeholder="Your message" name="message"
+                                required=""></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="copyright-text">
+                        <p>Copyright © 2024 - coded by : <a href="">StephenCodex</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <ul class="social-links">
+                        <li><a href="#" class="bi bi-facebook" attr="facebook icon"></a></li>
+                        <li><a href="#" class="bi bi-twitter"></a></li>
+                        <li><a href="#" class="bi bi-instagram"></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- sticky on scroll -->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
